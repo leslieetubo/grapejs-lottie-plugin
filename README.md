@@ -3,34 +3,29 @@
 # GrapesJS Lottie Plugin
 
 
-<span><a href="https://david-dm.org/khalifagates/grapejs-lottie-plugin#info=devDependencies" title="View the status of this project's development dependencies on DavidDM"><img src="https://img.shields.io/david/dev/artf/grapesjs-plugin-boilerplate.svg" alt="Dev Dependency Status" /></a></span>
+<span><a href="https://david-dm.org/khalifagates/grapejs-lottie-plugin#info=devDependencies" title="View the status of this project's development dependencies on DavidDM"><img src="https://img.shields.io/david/dev/khalifagates/grapejs-lottie-plugin.svg" alt="Dev Dependency Status" /></a></span>
 
 This is a plugin for grapejs users to implement and manipulate lottie animation on their browsers. Lottie airbnb animations can be found in the lottie market place. For more information, see [Lottie](https://lottiefiles.com). Lottie is not affliated with airbnb, but users all over the world create amazing svg animations.
 
 ### Usage
 1. Clone this repository `git clone https://github.com/artf/grapesjs-plugin-boilerplate.git Lottie-plugin`
-1. Replace in all files `Lottie-plugin` and `grapesjs-lottie-plugin` with your plugin name.
-  **The name of your plugin depends on the `name` key in your `package.json`**
-1. Update all the data in `package.json`
 1. Install dependencies `npm i` and run the local server `npm start`
 1. Start creating your plugin from `src/index.js`
-1. Show some gif/demo if possible
 1. Update README
 1. When you're ready, build your source with `npm run build`
-1. Publish
+1. Enjoy
 
-
+## Demo
+![Lottie Plugin Demo](https://i.imgur.com/0kBjhTz.gif)
 
 
 ## Summary
 
 * Plugin name: `Lottie-plugin`
 * Components
-  * `new-component1`
-  * `new-component2`
+  * `lottie-player`
 * Blocks
-  * `new-block1`
-  * `new-block1`
+  * `lottie-player`
 ...
 
 
@@ -50,11 +45,11 @@ This is a plugin for grapejs users to implement and manipulate lottie animation 
 ## Download
 
 * CDN
-  * `https://unpkg.com/YOUR-PLUGIN-NAME`
+  * `https://unpkg.com/lottie-plugin.min.js`
 * NPM
-  * `npm i YOUR-PLUGIN-NAME`
+  * `npm i lottie-plugin.min.js`
 * GIT
-  * `git clone https://github.com/YOUR-NAME/YOUR-PLUGIN-NAME.git`
+  * `git clone https://github.com/khalifagates/grapejs-lottie-plugin.git`
 
 
 
@@ -97,7 +92,7 @@ const editor = grapesjs.init({
   }
   // or
   plugins: [
-    editor => lottie(editor, { /* options */ }),
+    editor => lottie-plugin(editor, { /* options */ }),
   ],
 });
 ```
@@ -111,8 +106,8 @@ const editor = grapesjs.init({
 Clone the repository
 
 ```sh
-$ git clone https://github.com/YOUR-NAME/YOUR-PLUGIN-NAME.git
-$ cd Lottie
+$ git clone https://github.com/khalifagates/grapejs-lottie-plugin.git
+$ cd grapejs-lottie-plugin
 ```
 
 Install dependencies
