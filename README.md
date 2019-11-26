@@ -8,7 +8,7 @@
 This is a plugin for grapejs users to implement and manipulate lottie animation on their browsers. Lottie airbnb animations can be found in the lottie market place. For more information, see [Lottie](https://lottiefiles.com). Lottie is not affliated with airbnb, but users all over the world create amazing svg animations.
 
 ### Usage
-1. Clone this repository `git clone https://github.com/artf/grapesjs-plugin-boilerplate.git Lottie-plugin`
+1. Clone this repository `git clone https://github.com/khalifagates/grapejs-lottie-plugin.git Lottie-plugin`
 1. Install dependencies `npm i` and run the local server `npm start`
 1. Start creating your plugin from `src/index.js`
 1. Update README
